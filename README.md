@@ -9,13 +9,13 @@ I'm currently looking for someone who has experience with client-side validation
 
 **api.mojang.com/**
 
-Request type: GET
+Method: GET
 
 Headers: None
 
 Body: None
 
-Response: JSON object containing information about the Mojang API server with the following fields:
+Response: JSON object containing information about the Mojang API server with the following fields
 ```
 Status: String
 Runtime-Mode: String
