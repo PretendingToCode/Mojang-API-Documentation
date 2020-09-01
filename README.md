@@ -8,6 +8,7 @@ I'm currently looking for someone who has experience with client-side validation
 ## Mojang API (api.mojang.com)
 
 **api.mojang.com/**
+
 Request type: GET
 Headers: None
 Body: None
