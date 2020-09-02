@@ -7,7 +7,7 @@ I'm currently looking for someone who has experience with client-side validation
 
 ## Mojang API (api.mojang.com)
 
-**api.mojang.com**
+### api.mojang.com ###
 
 Method: GET
 
@@ -27,7 +27,7 @@ Implementation-Version: String - Application version
 Application-Owner: String - Application owner
 ```
 
-**api.mojang.com/user**
+### api.mojang.com/user ###
 
 Method: GET
 
