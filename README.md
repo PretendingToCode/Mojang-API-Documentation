@@ -5,7 +5,7 @@ If you would like to contribute, just make a pull request. If something here is 
 
 I'm currently looking for someone who has experience with client-side validation of invisible ReCAPTCHAs (v2) in NodeJS. If you're qualified, please get in contact with me!
 
-## Mojang API (api.mojang.com)
+# Mojang API (api.mojang.com)
 
 ### api.mojang.com ###
 
