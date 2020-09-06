@@ -115,7 +115,6 @@ name: String - Minecraft account name
 
 Description: Returns a user's in-game name given their Minecraft account UUID
 
-
 ## api.mojang.com/user/profile/[UUID]/name ##
 
 ### Method: GET ###
@@ -155,3 +154,19 @@ name: String - Desired in-game name for authenticated user's Minecraft account
 Response: 204 if successful, JSON object if failed
 
 Description: Changes authenticated user's in-game Minecraft name
+
+## api.mojang.com/user/profile/[UUID]/names ##
+
+### Method: GET ###
+
+Headers: None
+
+Body: None
+
+Response: Array of JSON objects, each with the following fields
+```
+name: String - A former or current name under provided Minecraft UUID
+changedToAt: Int - When the user changed their in-game name to above string
+```
+
+Description: Returns information about a provided user's name history
