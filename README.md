@@ -205,6 +205,32 @@ changedToAt: Int - When the user changed their in-game name to above string
 
 Description: Returns information about a provided user's name history
 
+
+## api.mojang.com/user/profile/[UUID]/skins ##
+
+### Method: GET ###
+
+Headers:
+```
+Authorization: Bearer [token]
+```
+Body: None
+
+Response: Array of JSON objects with the following fields
+```
+id: String - Internal asset ID
+type: String - Type of asset, usually "SKIN"
+url: String - URL to requested asset
+visible: Boolean - Whether asset is visible or not
+profileId: String - Minecraft account UUID
+textureId: String - Texture ID
+selected: Boolean- Whether asset is selected or not
+deleted: Boolean - Whether asset is deleted or not
+version: Int - Version of skin/asset being used
+```
+
+Description: Returns information about a provided user's skin history
+
 ## api.mojang.com/user/security/challenges ##
 
 ### Method: GET ###
