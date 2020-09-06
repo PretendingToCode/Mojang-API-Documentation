@@ -7,9 +7,9 @@ I'm currently looking for someone who has experience with client-side validation
 
 # Mojang API (api.mojang.com)
 
-### api.mojang.com ###
+## api.mojang.com ##
 
-#### Method: GET ####
+### Method: GET ###
 
 Headers: None
 
@@ -27,9 +27,9 @@ Implementation-Version: String - Application version
 Application-Owner: String - Application owner
 ```
 
-### api.mojang.com/user ###
+## api.mojang.com/user ##
 
-#### Method: GET ####
+### Method: GET ###
 
 Headers:
 ```
@@ -54,7 +54,7 @@ hashed: Boolean - Whether account data is hashed or not
 
 Description: Returns data about current authenticated user
 
-#### Method: POST ####
+### Method: POST ###
 
 Headers:
 ```
@@ -85,7 +85,7 @@ id: String - Internal Mojang user ID, not a Minecraft account UUID
 
 Description: Creates a new Mojang user account
 
-#### Method: PUT ####
+### Method: PUT ###
 
 Headers:
 ```
